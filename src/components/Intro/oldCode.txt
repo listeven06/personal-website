@@ -1,0 +1,115 @@
+<div className='intro__container'>
+                <div className="intro__left">
+                    <p className="intro__workStatus">• AVAILABLE FOR WORK</p>
+                    <h1 className="intro__headline">Hi, I'm Steven</h1>
+                    <p className="intro__subheadLine">Data Enthusiast</p>
+                    <p className="intro__para">Short 1-2 sentence value prop about what you do</p>
+                </div>
+            </div>
+            <div className='intro__right'>
+                <div className="profileCard">
+                    <div className="profileCard__media">
+                        <img className="profileCard__img" src = {profilePic} alt="profilePic"/>
+                    </div>
+                    <div class="profileCard__socials">
+        
+                    </div>
+                </div>
+            </div>
+
+
+#intro {
+    height: calc(100vh - 6rem);
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro__container {
+    display: flex;
+}
+
+.intro__workStatus {
+    background: white;
+    color: #53AC53;
+    padding: 0.35rem 0.5rem;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    margin-left: 3rem;
+}
+
+/*
+
+.introInnerContainer {
+    display: flex;
+    gap: 10vw;
+    padding: 0 3rem;
+}
+
+.introProfileCard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introProfileContainer {
+    max-width: 900px;
+    height: auto;
+}
+
+.introFiller {
+    background-color: white;
+    flex: 0 0 100px;
+}
+
+.introProfilePic {
+    width: 100%;
+    height: auto; 
+    border-radius: 1.5rem;
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.introText {
+    font-size: 5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.introOccupation {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.introPara {
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 100;
+} */
+
+
+
+
+
+
+
+
+/* .desktopMenuBtn {
+    background: white;
+    color: rgb(30, 30, 30);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+} */
