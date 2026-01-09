@@ -1,6 +1,85 @@
-.introContainer {
+.superContainer__intro {
+    /* background: burlywood; */
+    padding: 1rem 6rem;
     display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: space-between; 
 }
+
+.profileCard__intro {
+    flex-direction: column;
+    background-color: white;
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+    margin: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 2rem;
+}
+
+.profilePic__intro {
+    top: 0;
+    width: 100%; height: 60%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.profileCardContent__intro {
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.workStatus__intro {
+    background: #e0f0e3;
+    color: #53AC53;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.name__intro {
+    font-size: 2rem;
+    color: black;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.hook__intro {
+    font-size: 1rem;
+    color: grey;
+    padding: 0 1rem;
+}
+
+.socialContainer__intro {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 1rem;
+}
+
+.linkedin__intro {
+    height: 2rem;
+}
+
+.github__intro {
+    height: 2rem;
+}
+
+.email__intro {
+    height: 2rem;
+}
+
+/* .name__intro {
+    margin: 1rem;
+    color: black;
+    font-size: 2rem;
+} */
+
+
